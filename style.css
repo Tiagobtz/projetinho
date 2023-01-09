@@ -6,16 +6,16 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(1, 1, 44), rgb(10, 10, 99), rgb(2, 2, 107));
 }
 
 header {
-    background-image: linear-gradient(to right, rgb(1, 1, 44), rgb(3, 3, 94), rgb(82, 82, 224), rgb(109, 109, 221));
+    background-image: linear-gradient(to bottom, rgb(2, 2, 58), rgb(6, 6, 78));
     color: white;
     padding: 5px;
     display: inline-block;
     width: 100%;
-    height: 110px;
+    height: 100px;
     position: fixed;
     top: 0;
 }
@@ -24,7 +24,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
     margin-left: 40px;
-    margin-top: 10px;
     display: inline-block;
 }
 
@@ -36,7 +35,7 @@ header nav {
     display: inline-block;
     text-align: center;
     padding: 20px;
-    margin-top: 55px;
+    margin-top: 45px;
     
 }
 
@@ -46,6 +45,8 @@ li {
 }
 
 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 5px;
@@ -59,32 +60,49 @@ a:hover {
 }
 
 main {
-    background-color: rgb(142, 205, 241);
+    background-color: linear-gradient(to bottom, rgb(1, 1, 44), rgb(3, 3, 94), rgb(82, 82, 224), rgb(109, 109, 221));
     padding: 20px;
     margin-top: 115px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-section {
-    background-color: rgb(255, 255, 255);
-    margin: 50px;
-    padding: 20px;
-    border-radius: 10px;
+h2 {
+    font-size: 6rem;
+    color: rgb(49, 179, 240);
 }
 
-#primeira-coluna {
-    border: 1px solid black;
+h3 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+section {
+    margin: 50px;
+    padding: 20px;
 }
 
 #segunda-coluna {
-    border: 1px solid black;
-}
-
-img {
     display: inline-block;
-    margin-left: 50px;
 }
 
-/* min-width: 320px;
-max-width: 900px; */
+#botao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 110px;
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color: rgb(10, 10, 87);
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 150px;
+    cursor: pointer;
+    
+}
+
+#botao:hover {
+    background-color: #fff;
+    color: rgb(10, 10, 87);
+}
