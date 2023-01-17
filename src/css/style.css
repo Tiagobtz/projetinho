@@ -6,11 +6,11 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(30, 30, 148), rgb(14, 14, 173), rgb(10, 10, 180));
+    background-image: linear-gradient(to right, rgb(2, 2, 51), rgb(13, 13, 78), rgb(8, 8, 179));
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgb(17, 17, 112), rgb(19, 19, 129));
+    background-image: linear-gradient(to right, rgb(2, 2, 51), rgb(13, 13, 78), rgb(8, 8, 179));
     color: white;
     padding: 5px;
     display: inline-block;
@@ -22,7 +22,8 @@ header {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
+    color: yellow;
     margin-left: 40px;
     display: inline-block;
 }
@@ -61,9 +62,9 @@ a:hover {
 }
 
 main {
-    background-color: linear-gradient(to bottom, rgb(1, 1, 44), rgb(3, 3, 94), rgb(82, 82, 224), rgb(109, 109, 221));
+    background-image: linear-gradient(to right, rgb(2, 2, 51), rgb(13, 13, 78), rgb(8, 8, 179));
     padding: 20px;
-    margin-top: 115px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -71,7 +72,7 @@ main {
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 6rem;
-    color: rgb(201, 243, 13);
+    color: rgb(38, 226, 229);
 }
 
 h3 {
@@ -95,7 +96,7 @@ section {
     width: 110px;
     border: solid 0.5px white;
     border-radius: 20px;
-    background-color: rgb(10, 10, 87);
+    background-color: rgb(58, 58, 176);
     color: #fff;
     padding: 15px;
     display: inline-block;
@@ -124,7 +125,7 @@ footer {
 }
 
 #redes-sociais {
-    background-color: rgb(2, 1, 65);
+    background-color: rgb(27, 24, 229);
     color: #fff;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -136,9 +137,26 @@ footer {
     text-align: center;
 }
 
+.fab {
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+.fa-facebook-square {
+    color: rgb(80, 80, 255);
+}
+
+.fa-instagram-square {
+    color: rgb(197, 5, 43);
+}
+
+.fa-linkedin {
+    color: blue;
+}
+
 ul {
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 ul > li {
